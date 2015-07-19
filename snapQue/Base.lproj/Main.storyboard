@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -8,7 +8,7 @@
         <!--Login Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Login Page" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Login Page" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -96,7 +96,7 @@
         <!--Tables Overview-->
         <scene sceneID="Ujd-px-bey">
             <objects>
-                <viewController title="Tables Overview" id="RWC-Wd-aL4" sceneMemberID="viewController">
+                <viewController title="Tables Overview" id="RWC-Wd-aL4" customClass="RestaurantOverviewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Nya-GI-0g3"/>
                         <viewControllerLayoutGuide type="bottom" id="GtQ-rR-LB9"/>
@@ -255,7 +255,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Syv-ys-2qw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1326" y="82"/>
+            <point key="canvasLocation" x="1346" y="84"/>
         </scene>
         <!--Table Capacity-->
         <scene sceneID="CjR-zO-jW8">
@@ -303,7 +303,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ifk-5C-s5B" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="YHJ-ot-05G" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="280"/>
+            <point key="canvasLocation" x="1742" y="84"/>
         </scene>
         <!--Restaurants Waiting Time-->
         <scene sceneID="1fk-15-IAe">
@@ -606,7 +606,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="owL-vP-jBh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="-389"/>
+            <point key="canvasLocation" x="1742" y="-593"/>
         </scene>
     </scenes>
     <resources>

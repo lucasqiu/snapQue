@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		32C34CE91B5B0E63002498B4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C34CE81B5B0E63002498B4 /* logo.png */; };
-		32C34E0F1B5B905B002498B4 /* AddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C34E0D1B5B905B002498B4 /* AddTableViewController.m */; };
-		32C34E101B5B905B002498B4 /* AddTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C34E0E1B5B905B002498B4 /* AddTableViewController.xib */; };
-		32C34E141B5B92B6002498B4 /* AddTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C34E121B5B92B6002498B4 /* AddTableTableViewController.m */; };
-		32C34E151B5B92B6002498B4 /* AddTableTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C34E131B5B92B6002498B4 /* AddTableTableViewController.xib */; };
-		32C34E1B1B5BE436002498B4 /* RestaurantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C34E1A1B5BE436002498B4 /* RestaurantTableViewCell.m */; };
 		728A635D1B5B071E000D9F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A635C1B5B071E000D9F28 /* main.m */; };
 		728A63601B5B071E000D9F28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A635F1B5B071E000D9F28 /* AppDelegate.m */; };
 		728A63631B5B071E000D9F28 /* snapQue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 728A63611B5B071E000D9F28 /* snapQue.xcdatamodeld */; };
@@ -21,6 +16,8 @@
 		728A636B1B5B071E000D9F28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728A636A1B5B071E000D9F28 /* Images.xcassets */; };
 		728A636E1B5B071E000D9F28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728A636C1B5B071E000D9F28 /* LaunchScreen.xib */; };
 		728A637A1B5B071E000D9F28 /* snapQueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A63791B5B071E000D9F28 /* snapQueTests.m */; };
+		728A639C1B5C0C01000D9F28 /* RestaurantOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A639B1B5C0C01000D9F28 /* RestaurantOverviewController.m */; };
+		728A639F1B5C0C49000D9F28 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A639E1B5C0C49000D9F28 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +32,6 @@
 
 /* Begin PBXFileReference section */
 		32C34CE81B5B0E63002498B4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
-		32C34E0C1B5B905B002498B4 /* AddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTableViewController.h; sourceTree = "<group>"; };
-		32C34E0D1B5B905B002498B4 /* AddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTableViewController.m; sourceTree = "<group>"; };
-		32C34E0E1B5B905B002498B4 /* AddTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTableViewController.xib; sourceTree = "<group>"; };
-		32C34E111B5B92B6002498B4 /* AddTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTableTableViewController.h; sourceTree = "<group>"; };
-		32C34E121B5B92B6002498B4 /* AddTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTableTableViewController.m; sourceTree = "<group>"; };
-		32C34E131B5B92B6002498B4 /* AddTableTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTableTableViewController.xib; sourceTree = "<group>"; };
-		32C34E191B5BE436002498B4 /* RestaurantTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTableViewCell.h; sourceTree = "<group>"; };
-		32C34E1A1B5BE436002498B4 /* RestaurantTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantTableViewCell.m; sourceTree = "<group>"; };
 		728A63571B5B071E000D9F28 /* snapQue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapQue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728A635B1B5B071E000D9F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		728A635C1B5B071E000D9F28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,6 +46,10 @@
 		728A63731B5B071E000D9F28 /* snapQueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapQueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		728A63781B5B071E000D9F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		728A63791B5B071E000D9F28 /* snapQueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snapQueTests.m; sourceTree = "<group>"; };
+		728A639A1B5C0C01000D9F28 /* RestaurantOverviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantOverviewController.h; sourceTree = "<group>"; };
+		728A639B1B5C0C01000D9F28 /* RestaurantOverviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantOverviewController.m; sourceTree = "<group>"; };
+		728A639D1B5C0C49000D9F28 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		728A639E1B5C0C49000D9F28 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,14 +101,10 @@
 				728A636C1B5B071E000D9F28 /* LaunchScreen.xib */,
 				728A63611B5B071E000D9F28 /* snapQue.xcdatamodeld */,
 				728A635A1B5B071E000D9F28 /* Supporting Files */,
-				32C34E0C1B5B905B002498B4 /* AddTableViewController.h */,
-				32C34E0D1B5B905B002498B4 /* AddTableViewController.m */,
-				32C34E0E1B5B905B002498B4 /* AddTableViewController.xib */,
-				32C34E111B5B92B6002498B4 /* AddTableTableViewController.h */,
-				32C34E121B5B92B6002498B4 /* AddTableTableViewController.m */,
-				32C34E131B5B92B6002498B4 /* AddTableTableViewController.xib */,
-				32C34E191B5BE436002498B4 /* RestaurantTableViewCell.h */,
-				32C34E1A1B5BE436002498B4 /* RestaurantTableViewCell.m */,
+				728A639A1B5C0C01000D9F28 /* RestaurantOverviewController.h */,
+				728A639B1B5C0C01000D9F28 /* RestaurantOverviewController.m */,
+				728A639D1B5C0C49000D9F28 /* LoginViewController.h */,
+				728A639E1B5C0C49000D9F28 /* LoginViewController.m */,
 			);
 			path = snapQue;
 			sourceTree = "<group>";
@@ -228,9 +217,7 @@
 			files = (
 				32C34CE91B5B0E63002498B4 /* logo.png in Resources */,
 				728A63691B5B071E000D9F28 /* Main.storyboard in Resources */,
-				32C34E101B5B905B002498B4 /* AddTableViewController.xib in Resources */,
 				728A636E1B5B071E000D9F28 /* LaunchScreen.xib in Resources */,
-				32C34E151B5B92B6002498B4 /* AddTableTableViewController.xib in Resources */,
 				728A636B1B5B071E000D9F28 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,13 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C34E141B5B92B6002498B4 /* AddTableTableViewController.m in Sources */,
-				32C34E0F1B5B905B002498B4 /* AddTableViewController.m in Sources */,
-				32C34E1B1B5BE436002498B4 /* RestaurantTableViewCell.m in Sources */,
 				728A63631B5B071E000D9F28 /* snapQue.xcdatamodeld in Sources */,
 				728A63601B5B071E000D9F28 /* AppDelegate.m in Sources */,
+				728A639F1B5C0C49000D9F28 /* LoginViewController.m in Sources */,
 				728A63661B5B071E000D9F28 /* ViewController.m in Sources */,
 				728A635D1B5B071E000D9F28 /* main.m in Sources */,
+				728A639C1B5C0C01000D9F28 /* RestaurantOverviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
