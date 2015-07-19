@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>CE433E2E-C52A-44AF-84B9-5B83886CDB3A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>snapQue</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>41FE3144A5B5D357462334FBB708E0119E95A532</key>
 		<string>https://github.com/lucasqiu/snapQue.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>snapQue.xcodeproj/project.xcworkspace</string>
+	<string>snapQue.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>41FE3144A5B5D357462334FBB708E0119E95A532</key>
