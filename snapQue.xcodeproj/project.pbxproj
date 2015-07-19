@@ -21,7 +21,7 @@
 		728A63A11B5C30C0000D9F28 /* queue.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728A63A01B5C30C0000D9F28 /* queue.plist */; };
 		728A63A81B5C32F8000D9F28 /* courses_web.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728A63A61B5C32F8000D9F28 /* courses_web.plist */; };
 		728A63A91B5C32F8000D9F28 /* courses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728A63A71B5C32F8000D9F28 /* courses.plist */; };
-		728A63AC1B5C3AD4000D9F28 /* RestaurantListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A63AB1B5C3AD4000D9F28 /* RestaurantListView.m */; };
+		728A63AF1B5C3CBA000D9F28 /* RestaurantListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A63AE1B5C3CBA000D9F28 /* RestaurantListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		728A63A01B5C30C0000D9F28 /* queue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = queue.plist; sourceTree = "<group>"; };
 		728A63A61B5C32F8000D9F28 /* courses_web.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = courses_web.plist; sourceTree = "<group>"; };
 		728A63A71B5C32F8000D9F28 /* courses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = courses.plist; sourceTree = "<group>"; };
-		728A63AA1B5C3AD4000D9F28 /* RestaurantListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantListView.h; sourceTree = "<group>"; };
-		728A63AB1B5C3AD4000D9F28 /* RestaurantListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantListView.m; sourceTree = "<group>"; };
+		728A63AD1B5C3CBA000D9F28 /* RestaurantListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantListViewController.h; sourceTree = "<group>"; };
+		728A63AE1B5C3CBA000D9F28 /* RestaurantListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +114,8 @@
 				728A639B1B5C0C01000D9F28 /* RestaurantOverviewController.m */,
 				728A639D1B5C0C49000D9F28 /* LoginViewController.h */,
 				728A639E1B5C0C49000D9F28 /* LoginViewController.m */,
-				728A63AA1B5C3AD4000D9F28 /* RestaurantListView.h */,
-				728A63AB1B5C3AD4000D9F28 /* RestaurantListView.m */,
+				728A63AD1B5C3CBA000D9F28 /* RestaurantListViewController.h */,
+				728A63AE1B5C3CBA000D9F28 /* RestaurantListViewController.m */,
 			);
 			path = snapQue;
 			sourceTree = "<group>";
@@ -257,9 +257,9 @@
 				728A63601B5B071E000D9F28 /* AppDelegate.m in Sources */,
 				728A639F1B5C0C49000D9F28 /* LoginViewController.m in Sources */,
 				728A63661B5B071E000D9F28 /* ViewController.m in Sources */,
-				728A63AC1B5C3AD4000D9F28 /* RestaurantListView.m in Sources */,
 				728A635D1B5B071E000D9F28 /* main.m in Sources */,
 				728A639C1B5C0C01000D9F28 /* RestaurantOverviewController.m in Sources */,
+				728A63AF1B5C3CBA000D9F28 /* RestaurantListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
