@@ -166,9 +166,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBd-KB-5uF">
                                 <rect key="frame" x="174" y="127" width="109" height="39"/>
-                                <color key="backgroundColor" red="0.95949212449999999" green="0.99215686270000003" blue="0.25207226300000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.95454175758974047" blue="0.017368995529668196" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Customers">
-                                    <color key="titleColor" red="0.16862745100000001" green="0.4941176471" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.11632697022980439" green="0.34609358460945094" blue="0.39849668560606055" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -182,9 +182,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEi-UL-nWH">
                                 <rect key="frame" x="30" y="126" width="117" height="40"/>
-                                <color key="backgroundColor" red="0.95949212445669607" green="0.99215686270000003" blue="0.25207226301716967" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.95454175760000004" blue="0.01736899553" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Seating Plan">
-                                    <color key="titleColor" red="0.16862745098039217" green="0.49411764705882355" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1163269702" green="0.3460935846" blue="0.39849668560000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -199,7 +199,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next Customer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfn-Fd-CkZ">
                                 <rect key="frame" x="91" y="8" width="138" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" red="0.38984498824029745" green="0.80839743845454259" blue="0.90076546717171713" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.35723694561710556" green="0.74078015742037773" blue="0.82542219065656564" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
