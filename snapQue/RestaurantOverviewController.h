@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RestaurantOverviewController : UIViewController
 
+@interface RestaurantOverviewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+//@property (nonatomic, strong) NSArray *queue;
 @end
