@@ -31,8 +31,9 @@
         
         NSDictionary *webCourseDetails;
         NSArray *webCourseNames;
-        
-        
+    
+        NSArray *customer_queue;
+        NSArray *table_queue;
     }
     
     -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -41,30 +42,32 @@
     
     -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
         if (section == 0) {
-            return @"iOS Courses";
+            return @"Customer Queue";
         } else {
-            return @"Web Courses";
+            return @"";
         }
     }
 
     
     -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-        if (section == 0) {
-            return courseDetails.count;
-        } else {
-            return webCourseDetails.count;
-        }
+//        if (section == 0) {
+//            return courseDetails.count;
+//        } else {
+//            return webCourseDetails.count;
+//        }
+        return customer_queue.count;
     }
     
     -(UITableViewCell *)tableView:(UITableView *)tableView
 cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell *cell   = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    UITableViewCell *cell   = [tableView dequeueReusableCellWithIdentifier:@"qcell"];
     
-    // Retrieve an image
+    //Retrieve an image
 //    UIImage *myImage = [UIImage imageNamed:@"DemoCellImage"];
 //    [cell.imageView setImage:myImage];
-    
+//
+        
 //    if (indexPath.section == 0) {
 //        cell.textLabel.text = justCourseNames[indexPath.row];
 //        cell.detailTextLabel.text = courseDetails[justCourseNames[indexPath.row]];
@@ -72,11 +75,13 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 //        cell.textLabel.text = webCourseNames[indexPath.row];
 //        cell.detailTextLabel.text = webCourseDetails[webCourseNames[indexPath.row]];
 //    }
-    
-    //cell.textLabel.text = @"hoooooo";
-    
-    UILabel *nameLabel = (UILabel *)[cell viewWithTag:11];
-    nameLabel.text = @"hoo";
+        
+    UILabel *cLabel = (UILabel *)[cell viewWithTag:11];
+    cLabel.text = customer_queue[indexPath.row];
+        
+    UILabel *tLabel = (UILabel *)[cell viewWithTag:12];
+    tLabel.text = table_queue[indexPath.row];
+        
     return cell;
     
 }
@@ -86,11 +91,17 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     {
         [super viewDidLoad];
         
+        customer_queue = @[@"Nick", @"Bob", @"Mary", @"Dylan", @"Jess"];
+        table_queue = @[@"3",@"7",@"2",@"1",@"3"];
         
-//        // Do any additional setup after loading the view, typically from a nib.
+ //        Do any additional setup after loading the view, typically from a nib.
 //        NSURL *url = [[NSBundle mainBundle] URLForResource:@"courses" withExtension:@"plist"];
+//        
+//        
 //        // load the plist into the dictionary
 //        courseDetails = [NSDictionary dictionaryWithContentsOfURL:url];
+//        
+//        
 //        // create an array with just the keys
 //        justCourseNames = courseDetails.allKeys;
 //        
